@@ -1,0 +1,10 @@
+Fix for:
+
+  % desktop-file-validate /usr/share/applications/xchat.desktop 
+  /usr/share/applications/xchat.desktop: warning: key "Encoding" in group "Desktop Entry" is deprecated
+
+
+--- xchat-2.8.8/xchat.desktop.encoding	2010-06-30 02:25:28.326311898 -0700
++++ xchat-2.8.8/xchat.desktop	2010-06-30 02:25:38.881403035 -0700
+@@ -2 +1,0 @@
+-Encoding=UTF-8
